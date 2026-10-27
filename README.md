@@ -1,32 +1,33 @@
-# 🏹 Brahmastra-Core (బ్రహ్మాస్త్రం)
+# # 🏹 బ్రహ్మాస్త్రం కోర్ (BRAHMASTRA-CORE)
+> **A Sovereign, Quantum-Resistant & Decentralized Dharma Consensus Protocol**
 
-A next-generation decentralized peer-to-peer (P2P) protocol built with custom security mechanisms and an Indian Dharma Trust economic architecture.
-
----
-
-## 🌟 Key Features
-
-* **P2P Consensus Engine:** Robust multi-node distributed communication without centralized points of failure.
-* **Bhedya Shield:** Real-time tamper detection, cryptographic signature verification, and bad-node blacklisting.
-* **Dharma Economic Model (80/20 Rule):**
-  * **80%** allocated to the Community & Welfare Pool.
-  * **20%** allocated to Decentralized Infrastructure Maintenance.
-* **Multi-Node Cluster Support:** Tested and verified across regional simulation nodes (Hyderabad, Bengaluru, Mumbai, Chennai, Singapore).
+బ్రహ్మాస్త్రం కోర్ అనేది అత్యాధునిక క్రిప్టోగ్రాఫిక్ భద్రత, పియర్-టు-పియర్ (P2P) నెట్‌వర్కింగ్ మరియు స్వయంప్రతిపత్తి కలిగిన **ధర్మ ఎకనామిక్ మోడల్ (80/20 Governance)** ఆధారంగా నిర్మించబడిన వికేంద్రీకృత బ్లాక్‌చెయిన్ ఆర్కిటెక్చర్.
 
 ---
 
-## 🛠️ Project Structure
+## 🏛️ కోర్ ఆర్కిటెక్చర్ & ఫీచర్లు (Core Architecture)
 
-* `main.py` - Master protocol runner and execution entry point.
-* `p2p_network.py` - Core peer-to-peer handshake and data transmission logic.
-* `multi_node_sim.py` - 5-node distributed consensus simulation.
-* `bhedya_shield.py` - Security audit, defense algorithms, and block validation.
-* `security_audit.py` - Automated protocol integrity testing suite.
+1. **క్రిప్టోగ్రాఫిక్ షీల్డ్ (Cryptographic Hardening):**
+   - పోస్ట్-క్వాంటం లాటిస్ క్రిప్టోగ్రఫీ (Lattice-based FHE).
+   - జీరో-నాలెడ్జ్ ప్రూఫ్స్ (ZKP) & సిమ్డ్ వెక్టోరైజేషన్.
+   - భేద్య షీల్డ్ ట్యాంపర్-రెసిస్టెంట్ సెక్యూరిటీ ఆడిట్ ఇంజిన్.
+
+2. **ధర్మ పూల్ లెడ్జర్ (Dharma Economic Consensus):**
+   - **80% ధర్మ సంక్షేమ పూల్:** సమాజ సంక్షేమం మరియు వికేంద్రీకృత సాధికారతకు.
+   - **20% నెట్‌వర్క్ పూల్:** నోడ్ నిర్వహణ మరియు మౌలిక సదుపాయాల భద్రతకు.
+   - SHA-256 ఆధారిత ఆన్-చైన్ చైన్ లెడ్జర్ స్టోరేజ్ (`dharma_ledger.json`).
+
+3. **రియల్-టైమ్ P2P సాకెట్ నెట్‌వర్కింగ్:**
+   - నిజమైన TCP/IP సాకెట్స్ ఆధారిత డీసెంట్రలైజ్డ్ నోడ్ కమ్యూనికేషన్.
+   - 5-నోడ్ బైజాంటైన్ ఫాల్ట్ టాలరెంట్ సిమ్యులేషన్.
+
+4. **కమాండ్ సెంటర్ (Interactive CLI):**
+   - టెర్మినల్ ద్వారా సులభంగా లావాదేవీలను నిర్వహించే పూర్తి స్థాయి CLI డ్యాష్‌బోర్డ్.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 ప్రాజెక్ట్ రన్ చేసే విధానం (Execution Guide)
 
-Run the automated security suite:
+### 1. వర్చువల్ ఎన్విరాన్‌మెంట్ యాక్టివేట్ చేయడం:
 ```bash
-python3 security_audit.py
+source venv/bin/activate
