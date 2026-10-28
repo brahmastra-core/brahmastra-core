@@ -1,0 +1,15 @@
+[package]
+name = "brahmastra_core_engine"
+version = "0.1.0"
+edition = "2021"
+authors = ["Brahmastra Core Contributors"]
+description = "High-assurance cryptographic and zero-knowledge memory-safe core engine."
+
+[dependencies]
+zeroize = { version = "1.7", features = ["derive"] }
+rand_core = { version = "0.6", features = ["getrandom"] }
+subtle = "2.5"
+
+[lib]
+name = "brahmastra_core_engine"
+crate-type = ["lib", "cdylib"]
