@@ -1,33 +1,34 @@
-# # 🏹 బ్రహ్మాస్త్రం కోర్ (BRAHMASTRA-CORE)
-> **A Sovereign, Quantum-Resistant & Decentralized Dharma Consensus Protocol**
+# 🏹 BRAHMASTRA CORE
 
-బ్రహ్మాస్త్రం కోర్ అనేది అత్యాధునిక క్రిప్టోగ్రాఫిక్ భద్రత, పియర్-టు-పియర్ (P2P) నెట్‌వర్కింగ్ మరియు స్వయంప్రతిపత్తి కలిగిన **ధర్మ ఎకనామిక్ మోడల్ (80/20 Governance)** ఆధారంగా నిర్మించబడిన వికేంద్రీకృత బ్లాక్‌చెయిన్ ఆర్కిటెక్చర్.
+> A Sovereign, Quantum-Resistant & Decentralized Dharma Consensus Protocol
 
----
-
-## 🏛️ కోర్ ఆర్కిటెక్చర్ & ఫీచర్లు (Core Architecture)
-
-1. **క్రిప్టోగ్రాఫిక్ షీల్డ్ (Cryptographic Hardening):**
-   - పోస్ట్-క్వాంటం లాటిస్ క్రిప్టోగ్రఫీ (Lattice-based FHE).
-   - జీరో-నాలెడ్జ్ ప్రూఫ్స్ (ZKP) & సిమ్డ్ వెక్టోరైజేషన్.
-   - భేద్య షీల్డ్ ట్యాంపర్-రెసిస్టెంట్ సెక్యూరిటీ ఆడిట్ ఇంజిన్.
-
-2. **ధర్మ పూల్ లెడ్జర్ (Dharma Economic Consensus):**
-   - **80% ధర్మ సంక్షేమ పూల్:** సమాజ సంక్షేమం మరియు వికేంద్రీకృత సాధికారతకు.
-   - **20% నెట్‌వర్క్ పూల్:** నోడ్ నిర్వహణ మరియు మౌలిక సదుపాయాల భద్రతకు.
-   - SHA-256 ఆధారిత ఆన్-చైన్ చైన్ లెడ్జర్ స్టోరేజ్ (`dharma_ledger.json`).
-
-3. **రియల్-టైమ్ P2P సాకెట్ నెట్‌వర్కింగ్:**
-   - నిజమైన TCP/IP సాకెట్స్ ఆధారిత డీసెంట్రలైజ్డ్ నోడ్ కమ్యూనికేషన్.
-   - 5-నోడ్ బైజాంటైన్ ఫాల్ట్ టాలరెంట్ సిమ్యులేషన్.
-
-4. **కమాండ్ సెంటర్ (Interactive CLI):**
-   - టెర్మినల్ ద్వారా సులభంగా లావాదేవీలను నిర్వహించే పూర్తి స్థాయి CLI డ్యాష్‌బోర్డ్.
+Brahmastra Core is a decentralized blockchain architecture built on state-of-the-art cryptographic security, peer-to-peer (P2P) networking, and an autonomous Dharma Economic Model (80/20 Governance).
 
 ---
 
-## 🚀 ప్రాజెక్ట్ రన్ చేసే విధానం (Execution Guide)
+## 🏛️ Core Architecture & Features
 
-### 1. వర్చువల్ ఎన్విరాన్‌మెంట్ యాక్టివేట్ చేయడం:
+### 1. Cryptographic Hardening
+* **Post-Quantum Lattice Cryptography:** Lattice-based FHE (Fully Homomorphic Encryption) operations.
+* **Zero-Knowledge Proofs (ZKP) & SIMD Vectorization:** High-throughput privacy validation.
+* **Abhedya Shield:** Tamper-resistant cryptographic security audit engine.
+
+### 2. Dharma Pool Ledger (Dharma Economic Consensus)
+* **80% Dharma Welfare Pool:** Allocated for community welfare and decentralized empowerment.
+* **20% Network Pool:** Dedicated to node maintenance, operational sustainability, and infrastructure security.
+* **On-Chain Cryptographic Storage:** Immutable SHA-256 state tracking via `dharma_ledger.json`.
+
+### 3. Real-Time P2P Socket Networking
+* **Native Socket Communication:** Built on raw TCP/IP sockets for decentralized node message transport.
+* **Consensus Resilience:** 5-Node Byzantine Fault Tolerant (BFT) network simulation.
+
+### 4. Command Center (Interactive CLI)
+* **Terminal Interface:** Comprehensive interactive dashboard for seamless transaction execution, node status queries, and state management.
+
+---
+
+## 🚀 Execution Guide
+
+### 1. Activate Virtual Environment
 ```bash
 source venv/bin/activate
