@@ -1,33 +1,23 @@
-# Multi-stage lightweight Rust & Python runtime for Node-A
-# Base Image: Debian Slim for minimal surface area (<100MB)
+# Lightweight Python runtime for Node-A (<100MB)
 FROM python:3.11-slim-bullseye AS base
 
-# Install essential runtime dependencies only
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    iproute2 \
-    curl \
-    && rm -rf /var/lib/apt/lists/*
-
-# Security Hardening: Enforce Non-Root Execution
-# Create isolated system group and user
+# Hardened Non-Root User Configuration (UID: 10001)
 RUN groupadd -g 10001 brahmastra_group && \
     useradd -u 10001 -g brahmastra_group -m -s /bin/bash brahmastra_user
 
-# Set working directory with strict permissions
 WORKDIR /app
+
+# Copy entrypoint script and assign unprivileged ownership
+COPY entrypoint.py /app/entrypoint.py
 RUN chown -R brahmastra_user:brahmastra_group /app
 
-# Switch to unprivileged non-root user
 USER brahmastra_user
 
-# Default node environment variables
 ENV NODE_ID="Node-A" \
     NODE_IP="172.28.0.10" \
     LISTEN_PORT=443 \
     PYTHONUNBUFFERED=1
 
-# Expose internal mesh traffic port
 EXPOSE 443
 
-# Startup entrypoint execution
-CMD ["python3", "-c", "import time; print(f'[NODE-A ACTIVE] Running as unprivileged non-root user.'); time.sleep(3600)"]
+CMD ["python3", "/app/entrypoint.py"]
