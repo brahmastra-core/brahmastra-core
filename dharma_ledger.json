@@ -1,0 +1,50 @@
+{
+    "chain": [
+        {
+            "block_id": 0,
+            "timestamp": 1793075501.8637385,
+            "sender": "GENESIS",
+            "receiver": "DHARMA_ROOT",
+            "amount": 0,
+            "dharma_welfare_pool": 0,
+            "infra_maintenance": 0,
+            "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "block_hash": "GENESIS_BLOCK_BRAHMASTRA"
+        },
+        {
+            "block_id": 1,
+            "timestamp": 1793075501.867351,
+            "sender": "NODE_HYD_01",
+            "receiver": "NODE_CHE_01",
+            "amount": 1000.0,
+            "dharma_welfare_pool": 8.0,
+            "infra_maintenance": 2.0,
+            "prev_hash": "GENESIS_BLOCK_BRAHMASTRA",
+            "block_hash": "ba34270a5e6b06aeb75efc37e6f96535df7c2af8f160630debf1b7bcce15aef3"
+        },
+        {
+            "block_id": 2,
+            "timestamp": 1793075542.0786579,
+            "sender": "NODE_HYD_01",
+            "receiver": "NODE_CHE_01",
+            "amount": 1000.0,
+            "dharma_welfare_pool": 8.0,
+            "infra_maintenance": 2.0,
+            "prev_hash": "ba34270a5e6b06aeb75efc37e6f96535df7c2af8f160630debf1b7bcce15aef3",
+            "block_hash": "576bc9201eaf6f49c0c433138cdf600cff947baa3a37bba3d7d78fd67f973c21"
+        },
+        {
+            "block_id": 3,
+            "timestamp": 1793076218.5997415,
+            "sender": "NODE_BLR_01",
+            "receiver": "NODE_MUM_01",
+            "amount": 2500.0,
+            "dharma_welfare_pool": 20.0,
+            "infra_maintenance": 5.0,
+            "prev_hash": "576bc9201eaf6f49c0c433138cdf600cff947baa3a37bba3d7d78fd67f973c21",
+            "block_hash": "650a6cdfd6b8fdffbc3f3957cb188648fc132ca0dcb99fa75adf016586203919"
+        }
+    ],
+    "total_dharma_pool": 36.0,
+    "total_infra_pool": 9.0
+}
