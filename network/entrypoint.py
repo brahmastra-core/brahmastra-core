@@ -1,36 +1,57 @@
+#!/usr/bin/env python3
 """
-Brahmastra Mesh Network - Node-A Startup Entrypoint
-Phase 3: Day 38 Implementation
-Ensures non-root identity verification, environment initialization,
-and port 443 mesh readiness.
+Brahmastra Mesh Node Entrypoint Daemon
+Ensures zero-trust execution as UID 10001 and keeps socket listener active.
 """
 
 import os
 import sys
+import socket
+import signal
 import time
 
+def handle_sigterm(signum, frame):
+    print("\n[SHUTDOWN] Graceful termination received. Closing node daemon...")
+    sys.exit(0)
 
-def verify_execution_environment() -> None:
-    current_uid = os.getuid()
-    node_id = os.getenv("NODE_ID", "Node-A")
-    node_ip = os.getenv("NODE_IP", "172.28.0.10")
-    listen_port = os.getenv("LISTEN_PORT", "443")
+signal.signal(signal.SIGTERM, handle_sigterm)
+signal.signal(signal.SIGINT, handle_sigterm)
 
-    print(f"=================================================")
-    print(f"[BOOT] Initializing Brahmastra Mesh {node_id}")
-    print(f"=================================================")
-    print(f"[STATUS] Running with UID: {current_uid}")
-    print(f"[STATUS] Target IP:        {node_ip}")
-    print(f"[STATUS] Listening Port:   {listen_port} (HTTPS Masquerade)")
+node_id = os.environ.get("NODE_ID", "Node-A")
+node_ip = os.environ.get("NODE_IP", "172.28.0.10")
+listen_port = int(os.environ.get("LISTEN_PORT", 443))
+current_uid = os.getuid()
 
-    # Enforce non-root execution (UID != 0)
-    if current_uid == 0:
-        print("[CRITICAL ERROR] Running as root! Terminating for Zero-Trust compliance.", file=sys.stderr)
-        sys.exit(1)
+print(f"[BOOT] Initializing Brahmastra Mesh {node_id}")
+print("=" * 45)
+print(f"[STATUS] Running with UID: {current_uid}")
+print(f"[STATUS] Target IP: {node_ip}")
+print(f"[STATUS] Listening Port: {listen_port} (HTTPS Masquerade)")
 
-    print("[SECURITY] Zero-Trust Verified: Running as non-root unprivileged process.")
-    print(f"[ACTIVE] Node {node_id} successfully initialized and operational.")
+# Zero-trust privilege verification
+if current_uid == 0:
+    print("[ERROR] Root execution detected! Immediate shutdown for security.", file=sys.stderr)
+    sys.exit(1)
 
+print("[SECURITY] Zero-Trust Verified: Running as non-root unprivileged process.")
 
-if __name__ == "__main__":
-    verify_execution_environment()
+# Start persistent TCP listener
+try:
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_sock:
+        server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        server_sock.bind(("0.0.0.0", listen_port))
+        server_sock.listen(5)
+        print(f"[ACTIVE] {node_id} daemon listening on port {listen_port}. Cluster ready.")
+        sys.stdout.flush()
+
+        while True:
+            try:
+                conn, addr = server_sock.accept()
+                with conn:
+                    conn.sendall(f"ACK:{node_id}:OK\n".encode())
+            except socket.error:
+                time.sleep(0.5)
+
+except Exception as err:
+    print(f"[ERROR] Socket initialization failed: {err}", file=sys.stderr)
+    sys.exit(1)
