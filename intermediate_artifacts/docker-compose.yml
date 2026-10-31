@@ -1,0 +1,102 @@
+version: '3.8'
+
+services:
+  node-a:
+    image: brahmastra-node-a:v1
+    container_name: brahmastra-node-a
+    environment:
+      - NODE_ID=Node-A
+      - NODE_IP=172.28.0.10
+      - LISTEN_PORT=443
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8443:443"
+    networks:
+      brahmastra-mesh-net:
+        ipv4_address: 172.28.0.10
+    deploy:
+      resources:
+        limits:
+          memory: 80M
+    restart: unless-stopped
+
+  node-b:
+    image: brahmastra-node-a:v1
+    container_name: brahmastra-node-b
+    environment:
+      - NODE_ID=Node-B
+      - NODE_IP=172.28.0.11
+      - LISTEN_PORT=443
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8444:443"
+    networks:
+      brahmastra-mesh-net:
+        ipv4_address: 172.28.0.11
+    deploy:
+      resources:
+        limits:
+          memory: 80M
+    restart: unless-stopped
+
+  node-c:
+    image: brahmastra-node-a:v1
+    container_name: brahmastra-node-c
+    environment:
+      - NODE_ID=Node-C
+      - NODE_IP=172.28.0.12
+      - LISTEN_PORT=443
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8445:443"
+    networks:
+      brahmastra-mesh-net:
+        ipv4_address: 172.28.0.12
+    deploy:
+      resources:
+        limits:
+          memory: 80M
+    restart: unless-stopped
+
+  node-d:
+    image: brahmastra-node-a:v1
+    container_name: brahmastra-node-d
+    environment:
+      - NODE_ID=Node-D
+      - NODE_IP=172.28.0.13
+      - LISTEN_PORT=443
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8446:443"
+    networks:
+      brahmastra-mesh-net:
+        ipv4_address: 172.28.0.13
+    deploy:
+      resources:
+        limits:
+          memory: 80M
+    restart: unless-stopped
+
+  node-e:
+    image: brahmastra-node-a:v1
+    container_name: brahmastra-node-e
+    environment:
+      - NODE_ID=Node-E
+      - NODE_IP=172.28.0.14
+      - LISTEN_PORT=443
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8447:443"
+    networks:
+      brahmastra-mesh-net:
+        ipv4_address: 172.28.0.14
+    deploy:
+      resources:
+        limits:
+          memory: 80M
+    restart: unless-stopped
+
+networks:
+  brahmastra-mesh-net:
+    name: brahmastra-mesh-net
+    external: true
