@@ -1,0 +1,20 @@
+{
+  "topology_version": "1.0",
+  "topology_type": "STRATIFIED_3_LAYER",
+  "description": "Brahmastra Mixnet Core Stratified Topology Configuration",
+  "strata": {
+    "ingress": [
+      {"node_id": "Node-Ingress-1", "endpoint": "10.0.1.1:9001", "capacity_weight": 1.0},
+      {"node_id": "Node-Ingress-2", "endpoint": "10.0.1.2:9001", "capacity_weight": 1.0}
+    ],
+    "mix": [
+      {"node_id": "Node-Mix-1", "endpoint": "10.0.2.1:9002", "capacity_weight": 1.0},
+      {"node_id": "Node-Mix-2", "endpoint": "10.0.2.2:9002", "capacity_weight": 1.0},
+      {"node_id": "Node-Mix-3", "endpoint": "10.0.2.3:9002", "capacity_weight": 1.0}
+    ],
+    "egress": [
+      {"node_id": "Node-Egress-1", "endpoint": "10.0.3.1:9003", "capacity_weight": 1.0},
+      {"node_id": "Node-Egress-2", "endpoint": "10.0.3.2:9003", "capacity_weight": 1.0}
+    ]
+  }
+}
