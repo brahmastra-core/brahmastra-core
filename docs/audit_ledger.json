@@ -7,5 +7,14 @@
         "size_bytes": 2494,
         "timestamp_utc": "2026-11-02T15:51:05.111356+00:00",
         "status": "OFFICIALLY_REGISTERED"
+    },
+    {
+        "day": 104,
+        "section": "Zero-Knowledge Circuit Verification & Benchmarks",
+        "file": "docs/whitepaper_zkp_circuits.md",
+        "sha256": "67288a1ec02e475d94d7dcf22b9bbe3eb6fecf6e671789711231118c8e43e46b",
+        "size_bytes": 1445,
+        "timestamp_utc": "2026-11-02T16:18:26.584533+00:00",
+        "status": "OFFICIALLY_REGISTERED"
     }
 ]
