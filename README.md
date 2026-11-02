@@ -33,6 +33,10 @@ Brahmastra Core is a decentralized blockchain architecture built on state-of-the
 ```bash
 source venv/bin/activate
 ## Whitepaper & Research Status
+- **Phase 3 (FHE BFV/CKKS Engineering Architecture & SIMD Core):** Completed & Audited
+  - Architecture Audit ID: `BRAHMASTRA-FHE-ARCH-REV-387304C2`
+  - Architectural Digest: `387304c2017f7d032868c188527e0ae79014a528b14cb1e9b2c66fbffe20393c`
+  - Status: Formally Sealed (2026-11-02 11:26:54 UTC)
 - **Phase 1 (Abstract, Threat Model & 80/20 Covenant):** Completed & Audited
 - **Audit Registration ID:** `BRAHMASTRA-WP-REV-65445CDD`
 - **Integrity Hash:** `65445cddcdcd35a24469a863c38723a174e6612fffff71b1a64bc4986ca7a5ed`
