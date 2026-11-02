@@ -32,3 +32,9 @@ Brahmastra Core is a decentralized blockchain architecture built on state-of-the
 ### 1. Activate Virtual Environment
 ```bash
 source venv/bin/activate
+## Whitepaper & Research Status
+- **Phase 1 (Abstract, Threat Model & 80/20 Covenant):** Completed & Audited
+- **Audit Registration ID:** `BRAHMASTRA-WP-REV-65445CDD`
+- **Integrity Hash:** `65445cddcdcd35a24469a863c38723a174e6612fffff71b1a64bc4986ca7a5ed`
+- **Last Verified:** 2026-11-02 09:42:51 UTC
+
