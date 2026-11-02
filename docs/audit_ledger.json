@@ -1,0 +1,11 @@
+[
+    {
+        "day": 101,
+        "section": "Mixnet & Sphinx Packet Routing Architecture",
+        "file": "docs/whitepaper_mixnet_routing.md",
+        "sha256": "34933b554dea9e07ab95d6f44b04a91369fcc308388519a5d315e9b9bd9efac4",
+        "size_bytes": 2494,
+        "timestamp_utc": "2026-11-02T15:51:05.111356+00:00",
+        "status": "OFFICIALLY_REGISTERED"
+    }
+]
