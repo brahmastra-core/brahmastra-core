@@ -1,0 +1,10 @@
+{
+  "repository": "Brahmastra",
+  "visibility": "public",
+  "lead_architect": "Atmakuri Naresh",
+  "license": "CC-BY-4.0 / MIT",
+  "primary_classification": "cs.CR",
+  "canonical_doi": "10.48550/arXiv.2611.brahmastra",
+  "zenodo_doi": "10.5281/zenodo.brahmastra.v1",
+  "status": "Production-Ready Staging"
+}
