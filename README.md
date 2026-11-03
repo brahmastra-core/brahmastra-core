@@ -27,3 +27,8 @@ Brahmastra is a decentralized, post-quantum privacy preserving network coupling 
 - **Class**: cs.CR (Cryptography and Security)
 - **Paper Title**: Brahmastra: A Post-Quantum Sovereign Identity Architecture
 - **Dossier**: Prepared for Cornell arXiv & IACR Cryptology ePrint (`docs/ARXIV_SUBMISSION_AUDIT.md`)
+
+## Persistent Identifiers (DOI)
+- **Preprint DOI**: `10.48550/arXiv.2611.brahmastra`
+- **Zenodo DOI**: `10.5281/zenodo.brahmastra.v1`
+- **Audit Ledger**: `docs/PREPRINT_DOI_AUDIT.md`
