@@ -1,0 +1,2 @@
+784c92af71dc4d0a6a11f5c7fb09007a3b39c56bc97caf472c3da975fed9c18e  brahmastra_whitepaper_ieee.pdf
+e59cfc2dfd51e849ad3e7d2b6f7f42e6267c033c2cd19d3dbce0510431f9a185  brahmastra_source_v1.0.zip
