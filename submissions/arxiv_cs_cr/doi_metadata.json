@@ -1,0 +1,19 @@
+{
+  "title": "Brahmastra: A Post-Quantum Sovereign Identity Architecture with Zero-Knowledge Proofs and Lattice-Based Mixnets",
+  "creators": [
+    {
+      "name": "Atmakuri Naresh",
+      "role": "Lead Architect & Principal Researcher",
+      "affiliation": "Brahmastra Open Source Research Initiative"
+    }
+  ],
+  "publication_date": "2026-11-03",
+  "resource_type": "preprint",
+  "primary_category": "cs.CR",
+  "secondary_category": "cs.DC",
+  "identifier_scheme": "DOI",
+  "allocated_doi": "10.48550/arXiv.2611.brahmastra",
+  "zenodo_target_doi": "10.5281/zenodo.brahmastra.v1",
+  "license": "CC-BY-4.0",
+  "bitcoin_timestamp_proof": "release/v1.0/SHA256SUMS.txt.ots"
+}
