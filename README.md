@@ -17,3 +17,8 @@ Brahmastra is a decentralized, post-quantum privacy preserving network coupling 
 - **Post-Quantum Cryptography**: NIST FIPS 203 (ML-KEM-768) & FIPS 204 (ML-DSA-65).
 - **Cryptographic Tar-Pit**: Exponential adversary slowdown $O(2^\kappa)$.
 - **Dharma Economics**: 80% Humanitarian Welfare / 20% Core Infrastructure.
+
+## Bitcoin Blockchain Proof-of-Existence
+- **OpenTimestamps Attestation**: Anchored via decentralized Bitcoin calendar servers.
+- **Proof File**: `release/v1.0/SHA256SUMS.txt.ots`
+- **Audit Verification**: RFC 3161 compliant decentralized timestamping.
