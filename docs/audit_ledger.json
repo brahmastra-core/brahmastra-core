@@ -34,5 +34,14 @@
         "size_bytes": 2561,
         "timestamp_utc": "2026-11-03T04:24:53.538910+00:00",
         "status": "OFFICIALLY_REGISTERED"
+    },
+    {
+        "day": 113,
+        "section": "IEEE Latex Whitepaper Formatting & Mathematical Verification",
+        "file": "docs/brahmastra_whitepaper_ieee.tex",
+        "sha256": "41977c273a49dd7f280557937babe2794d13f42ebf33a3ac04764491452db5ca",
+        "size_bytes": 3077,
+        "timestamp_utc": "2026-11-03T04:48:52.951082+00:00",
+        "status": "OFFICIALLY_REGISTERED"
     }
 ]
