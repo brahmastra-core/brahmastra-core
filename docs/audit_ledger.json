@@ -16,5 +16,14 @@
         "size_bytes": 1445,
         "timestamp_utc": "2026-11-02T16:18:26.584533+00:00",
         "status": "OFFICIALLY_REGISTERED"
+    },
+    {
+        "day": 107,
+        "section": "Cryptographic Tar-Pit & Honeypot Defense Architecture",
+        "file": "docs/whitepaper_tarpit_defense.md",
+        "sha256": "7341bace624c09ff72c5888944f7d8b726d0bd1318bd66c99ca17bf5df94166d",
+        "size_bytes": 1480,
+        "timestamp_utc": "2026-11-03T03:51:44.481313+00:00",
+        "status": "OFFICIALLY_REGISTERED"
     }
 ]
