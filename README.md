@@ -19,3 +19,7 @@ Brahmastra is an advanced, post-quantum self-sovereign identity (SSI) and privac
 - Permanent DOI: 10.48550/arXiv.2611.brahmastra
 - Zenodo DOI: 10.5281/zenodo.brahmastra.v1
 - Archival Dossiers: Available in docs/ and submissions/arxiv_cs_cr/
+
+## Public Release & Audit Dossier
+- **Audit Report**: docs/PUBLIC_RELEASE_AUDIT.md
+- **Release Status**: Staged & Audited for Global Open Source Access
