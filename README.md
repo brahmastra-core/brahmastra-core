@@ -1,44 +1,19 @@
-# 🏹 BRAHMASTRA CORE
+# Brahmastra: Post-Quantum Self-Sovereign Identity & Sovereign Mixnet
 
-> A Sovereign, Quantum-Resistant & Decentralized Dharma Consensus Protocol
+Brahmastra is a decentralized, post-quantum privacy preserving network coupling zero-knowledge identity proofs, multi-hop Sphinx onion routing, cryptographic tar-pit defenses, and autonomous Dharma Economics.
 
-Brahmastra Core is a decentralized blockchain architecture built on state-of-the-art cryptographic security, peer-to-peer (P2P) networking, and an autonomous Dharma Economic Model (80/20 Governance).
+## Official Release v1.0 (Sealed Milestone)
+- **Architect & BDFL**: Atmakuri Naresh
+- **Foundation**: Brahmastra Sovereign Core Foundation (Zug, Switzerland / Puttaparthi, India)
+- **Specification Document**: `docs/brahmastra_whitepaper_ieee.pdf`
 
----
+### Verified Cryptographic Checksums (SHA-256)
+| Artifact | SHA-256 Hash |
+| :--- | :--- |
+| **IEEE Whitepaper (PDF)** | `784c92af71dc4d0a6a11f5c7fb09007a3b39c56bc97caf472c3da975fed9c18e` |
+| **Source Archive (ZIP)** | `e59cfc2dfd51e849ad3e7d2b6f7f42e6267c033c2cd19d3dbce0510431f9a185` |
 
-## 🏛️ Core Architecture & Features
-
-### 1. Cryptographic Hardening
-* **Post-Quantum Lattice Cryptography:** Lattice-based FHE (Fully Homomorphic Encryption) operations.
-* **Zero-Knowledge Proofs (ZKP) & SIMD Vectorization:** High-throughput privacy validation.
-* **Abhedya Shield:** Tamper-resistant cryptographic security audit engine.
-
-### 2. Dharma Pool Ledger (Dharma Economic Consensus)
-* **80% Dharma Welfare Pool:** Allocated for community welfare and decentralized empowerment.
-* **20% Network Pool:** Dedicated to node maintenance, operational sustainability, and infrastructure security.
-* **On-Chain Cryptographic Storage:** Immutable SHA-256 state tracking via `dharma_ledger.json`.
-
-### 3. Real-Time P2P Socket Networking
-* **Native Socket Communication:** Built on raw TCP/IP sockets for decentralized node message transport.
-* **Consensus Resilience:** 5-Node Byzantine Fault Tolerant (BFT) network simulation.
-
-### 4. Command Center (Interactive CLI)
-* **Terminal Interface:** Comprehensive interactive dashboard for seamless transaction execution, node status queries, and state management.
-
----
-
-## 🚀 Execution Guide
-
-### 1. Activate Virtual Environment
-```bash
-source venv/bin/activate
-## Whitepaper & Research Status
-- **Phase 3 (FHE BFV/CKKS Engineering Architecture & SIMD Core):** Completed & Audited
-  - Architecture Audit ID: `BRAHMASTRA-FHE-ARCH-REV-387304C2`
-  - Architectural Digest: `387304c2017f7d032868c188527e0ae79014a528b14cb1e9b2c66fbffe20393c`
-  - Status: Formally Sealed (2026-11-02 11:26:54 UTC)
-- **Phase 1 (Abstract, Threat Model & 80/20 Covenant):** Completed & Audited
-- **Audit Registration ID:** `BRAHMASTRA-WP-REV-65445CDD`
-- **Integrity Hash:** `65445cddcdcd35a24469a863c38723a174e6612fffff71b1a64bc4986ca7a5ed`
-- **Last Verified:** 2026-11-02 09:42:51 UTC
-
+## Core Invariants
+- **Post-Quantum Cryptography**: NIST FIPS 203 (ML-KEM-768) & FIPS 204 (ML-DSA-65).
+- **Cryptographic Tar-Pit**: Exponential adversary slowdown $O(2^\kappa)$.
+- **Dharma Economics**: 80% Humanitarian Welfare / 20% Core Infrastructure.
