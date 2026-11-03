@@ -22,3 +22,8 @@ Brahmastra is a decentralized, post-quantum privacy preserving network coupling 
 - **OpenTimestamps Attestation**: Anchored via decentralized Bitcoin calendar servers.
 - **Proof File**: `release/v1.0/SHA256SUMS.txt.ots`
 - **Audit Verification**: RFC 3161 compliant decentralized timestamping.
+
+## Academic Research & Preprints
+- **Class**: cs.CR (Cryptography and Security)
+- **Paper Title**: Brahmastra: A Post-Quantum Sovereign Identity Architecture
+- **Dossier**: Prepared for Cornell arXiv & IACR Cryptology ePrint (`docs/ARXIV_SUBMISSION_AUDIT.md`)
