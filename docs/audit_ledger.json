@@ -43,5 +43,15 @@
         "size_bytes": 3077,
         "timestamp_utc": "2026-11-03T04:48:52.951082+00:00",
         "status": "OFFICIALLY_REGISTERED"
+    },
+    {
+        "day": 116,
+        "milestone": "whitepaper_pdf_compilation_and_execution",
+        "section": "Official IEEE Whitepaper Vector PDF Artifact",
+        "file": "docs/brahmastra_whitepaper_ieee.pdf",
+        "sha256": "e87ae71fba60a5890f5d55a84bf6e86027512f6fdacda164147b7fe67021bb08",
+        "size_bytes": 78607,
+        "status": "VERIFIED_AND_LOCKED",
+        "timestamp_utc": "2026-11-03T05:38:24.569635+00:00"
     }
 ]
