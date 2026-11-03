@@ -25,5 +25,14 @@
         "size_bytes": 1480,
         "timestamp_utc": "2026-11-03T03:51:44.481313+00:00",
         "status": "OFFICIALLY_REGISTERED"
+    },
+    {
+        "day": 110,
+        "section": "Dharma Economics & 80/20 Welfare Automation Architecture",
+        "file": "docs/whitepaper_dharma_economics.md",
+        "sha256": "797ca73ee2ab452df583f5601433e8e846207fff178fa58e04a6a2459092757e",
+        "size_bytes": 2561,
+        "timestamp_utc": "2026-11-03T04:24:53.538910+00:00",
+        "status": "OFFICIALLY_REGISTERED"
     }
 ]
