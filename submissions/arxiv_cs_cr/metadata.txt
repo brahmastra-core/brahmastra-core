@@ -1,0 +1,8 @@
+Title: Brahmastra: A Post-Quantum Sovereign Identity Architecture with Zero-Knowledge Proofs and Lattice-Based Mixnets
+Authors: Atmakuri Naresh (Lead Architect & Principal Researcher)
+Categories: cs.CR (Cryptography and Security), cs.DC (Distributed, Parallel, and Cluster Computing)
+MSC Classes: 94A60, 68P25
+ACM Classes: C.2.0, E.3, K.6.5
+License: http://creativecommons.org/licenses/by/4.0/
+Abstract:
+The Brahmastra protocol presents a decentralized, post-quantum self-sovereign identity (SSI) architecture hardened against large-scale quantum cryptanalysis. By leveraging Module-Lattice-Based Digital Signature Algorithms (ML-DSA / FIPS 204), Module-Lattice Key Encapsulation (ML-KEM / FIPS 203), and zero-knowledge succinct non-interactive arguments of knowledge (zk-SNARKs), Brahmastra guarantees forward privacy and unlikable credential issuance. The architecture integrates an onion-routed cryptographic mixnet that prevents metadata harvesting and traffic correlation attacks. Integrity is anchored to decentralized proof-of-existence ledgers via OpenTimestamps.
