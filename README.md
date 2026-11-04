@@ -33,3 +33,7 @@ Brahmastra is an advanced, post-quantum self-sovereign identity (SSI) and privac
 - **Interactive Demo Cast**: `demo/terminal_demo_cast.json`
 - **Execution Specifications**: `docs/DEMO_RELEASE_DRAFT.md`
 - **Verification Status**: Validated on Lenovo ThinkPad T490 (WSL2 / Ubuntu)
+
+### Terminal Demo Release Status
+- **Status**: Verified & Formally Released (Day 138 Milestone)
+- **Final Release Report**: `docs/DEMO_FINAL_RELEASE_REPORT.md`
