@@ -1,38 +1,38 @@
 import hashlib
 import random
 
-print("--- బ్రహ్మాస్త్రం జీరో-నాలెడ్జ్ ప్రూఫ్ (ZKP) ఇంజిన్ ---")
+print("--- Brahmastra: Zero-Knowledge Proof (ZKP) Engine ---\n")
 
-# పెద్ద ప్రైమ్ నంబర్లు (గణిత గ్రూప్ పారామీటర్లు)
+# Large Prime Number (Mathematical Group Parameters)
 p = 2**256 - 189
 g = 2
 
-# 1. యూజర్ రహస్యం (Secret Key / Password) - ఇది ఎవరికీ కనిపించకూడదు
+# 1. User Secret (Secret Key / Password - Kept strictly private)
 secret_x = 987654321
-# పబ్లిక్ కీ (సర్వర్‌కు తెలిసేది కేవలం ఇది మాత్రమే)
+# Public Key (Known to Server - Computed mathematically)
 public_y = pow(g, secret_x, p)
 
-print(f"పబ్లిక్ కీ (సర్వర్‌కు తెలిసినది): {str(public_y)[:20]}...")
-print("రహస్య కీ (Secret): సురక్షితంగా యూజర్ దగ్గరే దాచబడింది.")
+print(f"Public Key (Known to Server): {str(public_y)[:20]}...")
+print("Secret Key (Private): Securely hidden on client device.\n")
 
-# 2. యూజర్ ఇచ్చే ప్రామాణిక ప్రూఫ్ (Commitment & Proof Generation)
+# 2. User Commitment & Proof Generation
 v = random.randint(1, p - 1)
 t = pow(g, v, p)
 
-# ఛాలెంజ్ క్రియేషన్ (క్రిప్టోగ్రాఫిక్ హాష్ ద్వారా)
+# Cryptographic Challenge via Hash (Fiat-Shamir Heuristic)
 challenge_c = int(hashlib.sha256(f"{g}{public_y}{t}".encode()).hexdigest(), 16) % p
 
-# రెస్పాన్స్ గణన (రహస్యాన్ని వాడి లెక్కించడం, కానీ రహస్యాన్ని బయటపెట్టకుండా)
+# Response Computation (Evaluated without revealing secret)
 response_r = (v - challenge_c * secret_x) % (p - 1)
 
-print("\nప్రూఫ్ సిద్ధమైంది (Proof Generated) -> సర్వర్‌కు పంపబడుతోంది...")
+print("\nProof generated successfully -> Sending proof to server...")
 
-# 3. సర్వర్ ధ్రువీకరణ (Verification without knowing Secret)
+# 3. Server Verification (Verification without knowing Secret)
 verification_t = (pow(g, response_r, p) * pow(public_y, challenge_c, p)) % p
 
 if verification_t == t:
     print("\n[VERIFICATION: SUCCESS]")
-    print("ఫలితం: పాస్‌వర్డ్/రహస్యం తెలియకుండానే యూజర్ అసలైనవాడని సర్వర్ నిర్ధారించింది!")
+    print("Result: Authenticated successfully without exposing secret!")
 else:
     print("\n[VERIFICATION: FAILED]")
-    print("ఫలితం: తప్పుడు ప్రూఫ్!")
+    print("Result: Invalid proof rejected.")
