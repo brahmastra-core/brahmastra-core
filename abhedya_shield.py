@@ -1,27 +1,27 @@
 import tenseal as ts
 
-# 1. గణిత కవచం (Lattice Encryption Context) ఏర్పాటు
+# 1. Cryptographic Shield (Lattice Encryption Context Setup)
 context = ts.context(
     ts.SCHEME_TYPE.BFV,
     poly_modulus_degree=4096,
     plain_modulus=1032193
 )
 
-# 2. రెండు రహస్య సంఖ్యలు
+# 2. Secret Raw Data Values
 num1 = [15]
 num2 = [25]
 
-# 3. లాటిస్ ఎన్‌క్రిప్షన్ ద్వారా లాక్ చేయడం (Ciphertext)
+# 3. Encrypting Data into Lattice Ciphertext
 enc1 = ts.bfv_vector(context, num1)
 enc2 = ts.bfv_vector(context, num2)
 
-print("డేటా పూర్తిగా లాటిస్ ఎన్‌క్రిప్ట్ అయ్యింది.")
+print("Data successfully encrypted into lattice ciphertext.")
 
-# 4. హోమోమార్ఫిక్ కంప్యూటేషన్: డేటాను తెరవకుండానే కూడిక చేయడం
+# 4. Homomorphic Computation: Blind Addition Without Decryption
 enc_sum = enc1 + enc2
 
-print("తాళం తీయకుండానే చీకట్లోనే లెక్క (Addition) పూర్తయింది.")
+print("Blind computation (Addition) completed without decryption.")
 
-# 5. వ్యక్తిగత కీతో ఫలితాన్ని ధ్రువీకరించడం
+# 5. Result Verification with Private Key
 result = enc_sum.decrypt()
-print("Secret Result (సరైన మొత్తం):", result[0])
+print("Secret Result (Decrypted Sum):", result[0])
