@@ -2,3 +2,4 @@ venv/
 brahmastra_core_engine/target/
 __pycache__/
 .coverage
+*.pyc
