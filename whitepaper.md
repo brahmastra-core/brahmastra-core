@@ -1,48 +1,48 @@
-# బ్రహ్మాస్త్రం: వికేంద్రీకృత గోప్యతా రక్షణ & మానవ సంక్షేమ వ్యవస్థ
+# Brahmastra: Decentralized Privacy Architecture & Public Welfare System
 ### (Brahmastra: A Zero-Trust, Post-Quantum Privacy Ecosystem with Automated Dharma Allocation)
-**రచయిత:** నరేష్ & ద కోర్ ఆర్కిటెక్చర్ టీమ్  
-**వెర్షన్:** 1.0 (Technical Draft)  
-**తేదీ:** అక్టోబర్ 2026  
+**Author:** Naresh & The Core Architecture Team 
+**:** 1.0 (Technical Draft) 
+**Date:** October 2026 
 
 ---
 
-## 1. పరిచయం & సమస్య (Abstract & Problem Statement)
-నేటి ఇంటర్నెట్ వ్యవస్థ కేంద్రీకృత బిగ్-టెక్ సంస్థలు మరియు ప్రభుత్వ నిఘా చట్రాల చేతుల్లో చిక్కుకుంది. వినియోగదారుల డేటాను వారి అనుమతి లేకుండా ట్రాక్ చేయడం, వ్యాపార ప్రయోజనాలకు వాడుకోవడం వ్యక్తిగత స్వేచ్ఛకు విఘాతం కలిగిస్తోంది. 
+## 1. Abstract & Problem Statement
+ - . , . 
 
-**బ్రహ్మాస్త్రం లక్ష్యం:**  
-క్వాంటమ్ కంప్యూటర్లు కూడా ఛేదించలేని పోస్ట్-క్వాంటమ్ క్రిప్టోగ్రఫీ, డేటాను డీక్రిప్ట్ చేయకుండానే ప్రాసెస్ చేసే హోమోమార్ఫిక్ కంప్యూటేషన్, ఎవరి గుర్తింపు తెలియకుండా చేసే మిక్స్‌నెట్ రూటింగ్, మరియు సమాజానికి ప్రత్యక్ష లబ్ధి చేకూర్చే 80% స్వయంప్రతిపత్తి గల ధర్మ కేటాయింపు వ్యవస్థను ఒకే వేదికపైకి తీసుకురావడం.
-
----
-
-## 2. సాంకేతిక స్తంభాలు (Architectural Pillars)
-
-### 2.1 లాటిస్ ఆధారిత హోమోమార్ఫిక్ ఎన్‌క్రిప్షన్ (BFV / CKKS)
-* **కాన్సెప్ట్:** డేటాను ఎన్‌క్రిప్ట్ చేసిన స్థితిలోనే దానిపై గణిత లెక్కలు మరియు కంప్యూటేషన్ చేయడం.
-* **భద్రత:** లెర్నింగ్ విత్ ఎర్రర్స్ (LWE / Ring-LWE) క్వాంటమ్-రెసిస్టెంట్ లాటిస్ గణితంపై ఆధారపడి ఉంటుంది.
-* **ఆప్టిమైజేషన్:** SIMD (Single Instruction, Multiple Data) బ్యాచింగ్ ద్వారా వేలాది సంఖ్యలను ఒకే సైఫర్‌టెక్స్ట్‌లో ప్యాక్ చేసి మెమరీ భారాన్ని నివారిస్తుంది.
-
-### 2.2 జీరో-నాలెడ్జ్ ప్రూఫ్స్ (Zero-Knowledge Proofs - ZKP)
-* **కాన్సెప్ట్:** అసలైన పాస్‌వర్డ్, ప్రైవేట్ కీ లేదా వ్యక్తిగత డేటాను బహిర్గతం చేయకుండానే ధ్రువీకరణ జరిపే వ్యవస్థ (Schnorr / zk-SNARKs).
-* **ఫలితం:** నెట్‌వర్క్‌లోని ఏ సర్వర్‌కూ యూజర్ సీక్రెట్స్ తెలియవు.
-
-### 2.3 అమృత ధార: మిక్స్‌నెట్ & డెకాయ్ రూటింగ్ (Mixnet & Decoy Traffic)
-* **స్ప్రింక్స్ ప్యాకెట్ డిలే (Sphinx Packet Delay):** ప్యాకెట్లు ప్రయాణించే సమయంలో యాదృచ్ఛిక సమయ ఆలస్యాన్ని ప్రవేశపెట్టి టైమింగ్ అటాక్స్‌ను అడ్డుకుంటుంది.
-* **డెకాయ్ ఇంజెక్షన్ (Decoy Injection):** అసలైన డేటా ప్యాకెట్లతో పాటు సమానమైన నకిలీ ప్యాకెట్లను ప్రసారం చేసి నెట్‌వర్క్ స్నిఫర్లను గందరగోళపరుస్తుంది.
+**Brahmastra Objective:** 
+ - , , ‌ , 80% .
 
 ---
 
-## 3. 80% ధర్మ అల్గారిథమ్ (Automated Welfare Protocol)
-* **నియమం (Code is Law):** నెట్‌వర్క్ ఫీజులు మరియు ప్రోటోకాల్ ఆదాయంలో 80% మానవ జోక్యం లేకుండా నేరుగా పారదర్శక సంక్షేమ పూల్‌కు చేరుతాయి.
-* **లక్ష్యం:** ఉచిత అత్యవసర వైద్యం, నాణ్యమైన సాంకేతిక విద్య అందించడం.
-* **మిగిలిన 20%:** పీర్-టు-పీర్ నోడ్ ఆపరేటర్ల రివార్డులు మరియు నెట్‌వర్క్ నిర్వహణకు కేటాయింపు.
+## 2. Architectural Pillars
+
+### 2.1 Lattice-based Homomorphic Encryption (BFV / CKKS)
+* **Concept:** Blind computation directly on ciphertext without exposure .
+* **Security:** Learning With Errors (LWE / Ring-LWE) quantum-resistant lattice hardness .
+* **:** SIMD (Single Instruction, Multiple Data) ‌‌ .
+
+### 2.2 Zero-Knowledge Proofs (ZKP)
+* **Concept:** Verifying truth of statements without exposing underlying credentials verified (Schnorr / zk-SNARKs).
+* **Result:** Zero server-side leakage of user credentials.
+
+### 2.3 Mixnet & Decoy Traffic Routing
+* ** (Sphinx Packet Delay):** ‌ .
+* **Decoy Injection:** Constant 4KB padded dummy traffic injection ‌ .
 
 ---
 
-## 4. రోడ్‌మ్యాప్ & అమలు ప్రణాళిక (Execution Roadmap)
-* **దశ 1:** డెవలప్‌మెంట్ ఎన్విరాన్‌మెంట్ (WSL2, పైథాన్ ఇంజిన్) - [పూర్తయింది]
-* **దశ 2:** కోర్ మ్యాథమెటికల్ మోడల్స్ (FHE, SIMD, ZKP PoC) - [పూర్తయింది]
-* **దశ 3:** మిక్స్‌నెట్ & డీసెంట్రలైజ్డ్ ఆర్కిటెక్చర్ ప్రోటోటైప్ - [పూర్తయింది]
-* **దశ 4:** సాంకేతిక వైట్‌పేపర్ రచన & గ్లోబల్ సెక్యూరిటీ ఆడిట్ - [ప్రస్తుత దశ]
-* **దశ 5:** స్విస్ నాన్-ప్రాఫిట్ ఫౌండేషన్ & భారతీయ ధర్మ ట్రస్ట్ చట్టబద్ధ రిజిస్ట్రేషన్
-* **దశ 6:** మెయిన్‌నెట్ లాంచ్ & పబ్లిక్ యాక్సెస్ విడుదల
-* **దశ 7:** ప్రపంచ ఆర్థిక వేదిక (WEF Davos) & UN వేదికలపై సమర్పణ
+## 3. 80% Dharma Algorithm (Automated Welfare Protocol)
+* **Rule (Code is Law):** 80% of network fees automatically directed to public welfare ‌ .
+* **Objective:** Transparent funding for emergency healthcare and technical education.
+* **Remaining 20%:** Allocated for P2P node operator incentives and network maintenance .
+
+---
+
+## 4. Execution Roadmap
+* ** 1:** Development Environment (WSL2, Python Core) - [Completed]
+* ** 2:** Core Mathematical Models (FHE, SIMD, ZKP PoC) - [Completed]
+* ** 3:** Mixnet & Decentralized Architecture Prototype - [Completed]
+* ** 4:** Technical Whitepaper & Global Security Audit - [Current Phase]
+* ** 5:** Swiss Non-Profit Foundation & Indian Dharma Trust Legal Entity Setup
+* ** 6:** Mainnet Production Launch & Public Client Release
+* ** 7:** Global Technical Presentation (WEF Davos & UN Tech Forums)

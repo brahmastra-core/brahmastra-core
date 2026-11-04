@@ -1,7 +1,7 @@
 # Brahmastra Protocol: Cryptographic Tar-Pit & Honeypot Defense
-**Document Reference**: BP-WP-SEC05-TARPIT  
-**Author**: Atmakuri Naresh (Lead Architect & BDFL)  
-**Generated Timestamp**: 2026-11-03T03:30:00+00:00  
+**Document Reference**: BP-WP-SEC05-TARPIT 
+**Author**: Atmakuri Naresh (Lead Architect & BDFL) 
+**Generated Timestamp**: 2026-11-03T03:30:00+00:00 
 
 ---
 

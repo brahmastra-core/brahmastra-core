@@ -7,7 +7,7 @@ In an anonymous mixnet, passive wire sniffers observe packet lengths traversing 
 - Every onion-routed frame transmitted across any node link is strictly padded to exactly **4096 bytes (4 KB)**.
 - Regardless of plaintext size ($0 \le \text{len} \le 4000$ bytes), cryptographic dummy bytes with high entropy fill the frame.
 - Frame Format:
-  `[Length: 4 bytes big-endian] + [Payload: N bytes] + [High-Entropy Padding: (4092 - N) bytes]`
+ `[Length: 4 bytes big-endian] + [Payload: N bytes] + [High-Entropy Padding: (4092 - N) bytes]`
 
 ## 3. Wire Sniffing & Side-Channel Mitigation
 - Observers on intermediate relays see only identical 4096-byte blocks.

@@ -17,15 +17,15 @@ Brahmastra utilizes the Chinese Remainder Theorem canonical slot isomorphism to 
 
 ### 2.1 Memory Optimization Comparative Chart
 +-------------------------------------------------------------------------------+
-|                      MEMORY & BANDWIDTH ALLOCATION MODEL                      |
+| MEMORY & BANDWIDTH ALLOCATION MODEL |
 +-------------------------------------------------------------------------------+
-| Mode 1: Naive Scalar Encryption (8192 Individual Plaintext Values)            |
-|   Ciphertext Footprint: 8192 x 128 KB = 1048.58 MB (~1.02 GB RAM)             |
-|   Memory Waste: REDUNDANT COEFFICIENT EXPANSION                               |
+| Mode 1: Naive Scalar Encryption (8192 Individual Plaintext Values) |
+| Ciphertext Footprint: 8192 x 128 KB = 1048.58 MB (~1.02 GB RAM) |
+| Memory Waste: REDUNDANT COEFFICIENT EXPANSION |
 +-------------------------------------------------------------------------------+
 | Mode 2: Brahmastra SIMD Vector Batching (8192 Slots Packed into 1 Ciphertext) |
-|   Ciphertext Footprint: 1 x 128 KB = 0.125 MB (128 KB RAM)                    |
-|   Memory Efficiency Gain: 99.98% REDUCTION IN BUFFER ALLOCATION               |
+| Ciphertext Footprint: 1 x 128 KB = 0.125 MB (128 KB RAM) |
+| Memory Efficiency Gain: 99.98% REDUCTION IN BUFFER ALLOCATION |
 +-------------------------------------------------------------------------------+
 
 ## 3. Scheme Parameters & Security Alignment Table

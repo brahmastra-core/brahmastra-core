@@ -1,7 +1,7 @@
 # Brahmastra Protocol: Zero-Knowledge Circuit Verification & Benchmarking
-**Document Reference**: BP-WP-SEC04-ZKP  
-**Author**: Atmakuri Naresh (Lead Architect & BDFL)  
-**Generated Timestamp**: 2026-11-02T16:40:00+00:00  
+**Document Reference**: BP-WP-SEC04-ZKP 
+**Author**: Atmakuri Naresh (Lead Architect & BDFL) 
+**Generated Timestamp**: 2026-11-02T16:40:00+00:00 
 
 ---
 

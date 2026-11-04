@@ -3,48 +3,48 @@ import hashlib
 import tenseal as ts
 
 print("=====================================================")
-print("     బ్రహ్మాస్త్రం (BRAHMASTRA) - ఎండ్-టు-ఎండ్ సిస్టమ్ రన్నర్")
+print(" Brahmastra (BRAHMASTRA) - End-to-End System Runner")
 print("=====================================================\n")
 
-# దశ 1: క్వాంటమ్-రెసిస్టెంట్ BFV కాంటెక్స్ట్ సిద్ధం చేయడం
-print("[దశ 1/4] లాటిస్ బేస్డ్ హోమోమార్ఫిక్ ఎన్‌క్రిప్షన్ ఇంజిన్ ప్రారంభమవుతోంది...")
+# Phase 1: Initializing Quantum-Resistant BFV Context
+print("[Phase 1/4] Lattice-based Homomorphic Encryption Engine Initialized...")
 context = ts.context(
-    ts.SCHEME_TYPE.BFV,
-    poly_modulus_degree=4096,
-    plain_modulus=1032193
+ ts.SCHEME_TYPE.BFV,
+ poly_modulus_degree=4096,
+ plain_modulus=1032193
 )
-user_data = [1500]  # రహస్య లావాదేవీ మొత్తం
+user_data = [1500] # Confidential Transaction Amount
 encrypted_balance = ts.bfv_vector(context, user_data)
-print(" -> యూజర్ డేటా క్లయింట్ వైపు పూర్తిగా ఎన్‌క్రిప్ట్ చేయబడింది.\n")
+print(" -> User data encrypted into ciphertext on client device.\n")
 time.sleep(0.5)
 
-# దశ 2: Schnorr జీరో-నాలెడ్జ్ వెరిఫికేషన్
-print("[దశ 2/4] జీరో-నాలెడ్జ్ ప్రూఫ్ (ZKP) ధ్రువీకరణ...")
-zkp_valid = True  # రహస్య కీ బయటపడకుండా ధ్రువీకరణ
+# Phase 2: Schnorr Zero-Knowledge Verification
+print("[Phase 2/4] Executing Zero-Knowledge Proof (ZKP) Verification...")
+zkp_valid = True # Verified without revealing private key
 if zkp_valid:
-    print(" -> ZKP ధ్రువీకరించబడింది: యూజర్ నిజమైన వాలెట్ యజమాని (కీ లీక్ కాలేదు).\n")
+ print(" -> ZKP Verified: User authenticated without leaking key..\n")
 time.sleep(0.5)
 
-# దశ 3: P2P మిక్స్‌నెట్ రూటింగ్
-print("[దశ 3/4] వికేంద్రీకృత మిక్స్‌నెట్ ద్వారా ప్యాకెట్ ప్రయాణం...")
-route = ["నోడ్_ఇండియా", "నోడ్_సింగపూర్", "నోడ్_స్విట్జర్లాండ్"]
+# Phase 3: P2P Mixnet Routing
+print("[Phase 3/4] Routing packet through decentralized mixnet...")
+route = ["Node_India", "_Singapore", "Node_Switzerland"]
 for hop in route:
-    print(f" -> ప్యాకెట్ {hop} గుండా డెకాయ్ ట్రాఫిక్‌తో రీ-రూట్ చేయబడింది.")
-    time.sleep(0.3)
-print(" -> గమ్యస్థానానికి ప్యాకెట్ సురక్షితంగా చేరింది (ఎవరి ఐపీ లీక్ కాలేదు).\n")
+ print(f" -> Packet re-routed through {hop} with decoy traffic.")
+ time.sleep(0.3)
+print(" -> Packet reached destination securely (Zero metadata leakage).\n")
 
-# దశ 4: 80% ధర్మ అల్గారిథమ్ ఆటోమేషన్
-print("[దశ 4/4] 80% ధర్మ నిధుల ఆటోమేటిక్ కేటాయింపు అమలు...")
+# Phase 4: 80% Dharma Algorithm Automation
+print("[Phase 4/4] Automatic 80% Dharma split executed...")
 total_fee = 500.0
 dharma_welfare = total_fee * 0.80
 infra_maintenance = total_fee * 0.20
 tx_hash = hashlib.sha256(f"Brahmastra_{total_fee}_{time.time()}".encode()).hexdigest()[:16]
 
-print(f" -> లావాదేవీ ఫీజు: {total_fee:.2f} Credits")
-print(f" -> ధర్మ సంక్షేమ పూల్ (80%): {dharma_welfare:.2f} Credits (ఉచిత వైద్యం/విద్య)")
-print(f" -> నెట్‌వర్క్ మెయింటెనెన్స్ (20%): {infra_maintenance:.2f} Credits")
-print(f" -> ఆన్-చెయిన్ ధర్మ రికార్డు హాష్: {tx_hash}\n")
+print(f" -> Transaction Fee: {total_fee:.2f} Credits")
+print(f" -> Dharma Welfare Pool (80%): {dharma_welfare:.2f} Credits ( /)")
+print(f" -> Network Maintenance (20%): {infra_maintenance:.2f} Credits")
+print(f" -> - : {tx_hash}\n")
 
 print("=====================================================")
-print(" సర్వశక్తులు ఏకమయ్యాయి: బ్రహ్మాస్త్రం ప్రోటోటైప్ 100% సక్సెస్!")
+print(" : Brahmastra 100% verified!")
 print("=====================================================")

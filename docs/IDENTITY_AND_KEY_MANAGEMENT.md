@@ -6,12 +6,12 @@ Brahmastra utilizes a zero-trust cryptographic identity layer where node identit
 
 ## Cryptographic Standards
 - **Key Algorithm:** Ed25519 (RFC 8032)
-  - Public Key: 32 bytes (raw)
-  - Private Key: 32 bytes (raw seed) / 64 bytes
-  - Signatures: 64 bytes
+ - Public Key: 32 bytes (raw)
+ - Private Key: 32 bytes (raw seed) / 64 bytes
+ - Signatures: 64 bytes
 - **Peer ID Derivation:** SHA-256 (FIPS 180-4)
-  - Formula: `Node_ID = SHA-256(Raw_Ed25519_PublicKey).hexdigest()`
-  - Length: 64 hexadecimal characters
+ - Formula: `Node_ID = SHA-256(Raw_Ed25519_PublicKey).hexdigest()`
+ - Length: 64 hexadecimal characters
 
 ## Security Policies
 1. Private keys must remain strictly within local memory / secure storage with non-root ownership (UID 10001).

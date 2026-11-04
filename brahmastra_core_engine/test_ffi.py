@@ -10,12 +10,12 @@ U64Array4 = ctypes.c_uint64 * 4
 
 # Set argument and return types for ffi_homomorphic_add
 rust_lib.ffi_homomorphic_add.argtypes = [
-    ctypes.POINTER(ctypes.c_uint64),
-    ctypes.POINTER(ctypes.c_uint64),
-    ctypes.POINTER(ctypes.c_uint64),
-    ctypes.POINTER(ctypes.c_uint64),
-    ctypes.POINTER(ctypes.c_uint64),
-    ctypes.POINTER(ctypes.c_uint64),
+ ctypes.POINTER(ctypes.c_uint64),
+ ctypes.POINTER(ctypes.c_uint64),
+ ctypes.POINTER(ctypes.c_uint64),
+ ctypes.POINTER(ctypes.c_uint64),
+ ctypes.POINTER(ctypes.c_uint64),
+ ctypes.POINTER(ctypes.c_uint64),
 ]
 rust_lib.ffi_homomorphic_add.restype = ctypes.c_int32
 

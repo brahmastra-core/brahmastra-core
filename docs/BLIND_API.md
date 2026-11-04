@@ -13,8 +13,8 @@ The Blind API enforces a zero-trust interface between nodes and clients. The ser
 ### Request Specification
 ```json
 {
-  "version": "1.0",
-  "payload_type": "FHE_CIPHERTEXT",
-  "ciphertext": "<base64-encoded-fhe-ciphertext>",
-  "zkp_proof": "<base64-encoded-zero-knowledge-proof>"
+ "version": "1.0",
+ "payload_type": "FHE_CIPHERTEXT",
+ "ciphertext": "<base64-encoded-fhe-ciphertext>",
+ "zkp_proof": "<base64-encoded-zero-knowledge-proof>"
 }

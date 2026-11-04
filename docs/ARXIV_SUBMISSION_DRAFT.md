@@ -4,8 +4,8 @@
 - **Primary Category**: `cs.CR` (Cryptography and Security)
 - **Cross-List Category**: `cs.DC` (Distributed Systems)
 - **Target Archives**:
-  1. Cornell University arXiv.org
-  2. International Association for Cryptologic Research (IACR) ePrint Archive
+ 1. Cornell University arXiv.org
+ 2. International Association for Cryptologic Research (IACR) ePrint Archive
 
 ## 2. Author & Ownership Attribution
 - **Lead Author & BDFL**: Atmakuri Naresh

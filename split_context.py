@@ -5,23 +5,23 @@
 
 import tenseal as ts
 
-# 1. ప్రైవేట్ కాంటెక్స్ట్ తయారీ
+# 1. Generating Private Context
 context = ts.context(
-    ts.SCHEME_TYPE.BFV,
-    poly_modulus_degree=8192,
-    plain_modulus=1032193
+ ts.SCHEME_TYPE.BFV,
+ poly_modulus_degree=8192,
+ plain_modulus=1032193
 )
 context.generate_relin_keys()
 context.generate_galois_keys()
 
-# 2. ప్రైవేట్ సీరియలైజ్డ్ డేటా (క్లయింట్ దగ్గరే భద్రంగా ఉంటుంది)
+# 2. Private Serialized Data (Retained strictly on client device)
 secret_context = context.serialize(save_secret_key=True)
 
-# 3. సర్వర్ కోసం పబ్లిక్ కాంటెక్స్ట్‌ను వేరుచేయడం (Zero-Trust)
+# 3. Extracting Public Context for Server (Zero-Trust)
 context.make_context_public()
 public_context = context.serialize()
 
-print("[SUCCESS] పబ్లిక్ & ప్రైవేట్ కాంటెక్స్ట్‌ల విభజన పూర్తయింది!")
+print("[SUCCESS] Public & Private Context Separation Complete!")
 print(f"- Server Public Context has Secret Key? {context.has_secret_key()}")
 print(f"- Public Context Size: {len(public_context)} bytes")
 print(f"- Secret Context Size: {len(secret_context)} bytes")
