@@ -1,25 +1,25 @@
 import hashlib
 import time
 
-print("--- బ్రహ్మాస్త్రం: 80% ధర్మ అల్గారిథమ్ ఇంజిన్ ---\n")
+print("--- Brahmastra: 80% Dharma Algorithm Engine ---\n")
 
 class DharmaContract:
     def __init__(self):
-        # 80% ధర్మ ఫండ్ వాలెట్ (వైద్యం & విద్య కోసం లాక్ చేయబడిన రిజర్వ్)
+        # 80% Dharma Fund Wallet (Locked reserve for healthcare & education)
         self.dharma_fund = 0.0
-        # 20% నెట్‌వర్క్ నిర్వహణ వాలెట్ (నోడ్ రన్నర్స్ & ఇన్‌ఫ్రాస్ట్రక్చర్)
+        # 20% Network Maintenance Wallet (Node rewards & infrastructure)
         self.infra_fund = 0.0
         self.ledger = []
 
     def process_transaction(self, tx_id, amount):
-        # 80% ధర్మ నియమం - మార్చడానికి వీల్లేని కోడ్ రూల్
+        # 80% Dharma Rule - Immutable Code Law
         dharma_share = amount * 0.80
         infra_share = amount * 0.20
 
         self.dharma_fund += dharma_share
         self.infra_fund += infra_share
 
-        # బ్లాక్‌చెయిన్ తరహా లెడ్జర్ ఎంట్రీ (క్రిప్టోగ్రాఫిక్ రికార్డ్)
+        # Blockchain Ledger Entry (Cryptographic Record)
         entry = {
             "tx_id": tx_id,
             "total_fee": amount,
@@ -28,15 +28,16 @@ class DharmaContract:
             "hash": hashlib.sha256(f"{tx_id}{amount}{time.time()}".encode()).hexdigest()[:16]
         }
         self.ledger.append(entry)
-        print(f"లావాదేవీ: {tx_id} | మొత్తం ఫీజు: {amount} Credits")
-        print(f" -> ధర్మ పూల్‌కు వెళ్లినది (80%): {dharma_share:.2f} Credits (పేదల వైద్యం/విద్య)")
-        print(f" -> ఇన్‌ఫ్రాకు వెళ్లినది (20%): {infra_share:.2f} Credits (నెట్‌వర్క్ నిర్వహణ)")
-        print(f" -> లెడ్జర్ హాష్: {entry['hash']}\n")
+        print(f"Transaction: {tx_id} | Total Fee: {amount} Credits")
+        print(f" -> Allocated to Dharma Pool (80%): {dharma_share:.2f} Credits (Healthcare/Education)")
+        print(f" -> Allocated to Infra Pool (20%): {infra_share:.2f} Credits (Network Operations)")
+        print(f" -> Ledger Hash: {entry['hash']}\n")
 
-# సిమ్యులేషన్ ప్రారంభం
+
+# Simulation Start
 brahmastra_node = DharmaContract()
 
-# నెట్‌వర్క్‌లో 3 వరుస లావాదేవీల నమూనా
+# Sample sequential transactions on network
 transactions = [
     ("TX_1001", 100.0),
     ("TX_1002", 250.0),
@@ -46,8 +47,8 @@ transactions = [
 for tx_id, fee in transactions:
     brahmastra_node.process_transaction(tx_id, fee)
 
-print("=" * 45)
-print(f"బ్రహ్మాస్త్రం ధర్మ రిజర్వ్ నిధులు (80%): {brahmastra_node.dharma_fund:.2f} Credits")
-print(f"నెట్‌వర్క్ నిర్వహణ నిధులు (20%): {brahmastra_node.infra_fund:.2f} Credits")
-print("ధర్మ సూత్రం ధ్రువీకరించబడింది: కోడ్ అనేది చట్టం (Code is Law)!")
-print("=" * 45)
+print("-" * 45)
+print(f"Brahmastra Dharma Reserve Funds (80%): {brahmastra_node.dharma_fund:.2f} Credits")
+print(f"Network Operations Funds (20%): {brahmastra_node.infra_fund:.2f} Credits")
+print("Dharma Protocol Verified: Code is Law")
+print("-" * 45)
