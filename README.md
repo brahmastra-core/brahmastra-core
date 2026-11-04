@@ -23,3 +23,8 @@ Brahmastra is an advanced, post-quantum self-sovereign identity (SSI) and privac
 ## Public Release & Audit Dossier
 - **Audit Report**: docs/PUBLIC_RELEASE_AUDIT.md
 - **Release Status**: Staged & Audited for Global Open Source Access
+
+## Legal Compliance & Patent Protection
+- **Primary License**: Apache License 2.0 (`LICENSE-APACHE`)
+- **Patent Shield**: Active (Protection against predatory patent litigation)
+- **Final Legal Audit**: `docs/LEGAL_APACHE_FINAL_AUDIT.md`
