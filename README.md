@@ -37,3 +37,9 @@ Brahmastra is an advanced, post-quantum self-sovereign identity (SSI) and privac
 ### Terminal Demo Release Status
 - **Status**: Verified & Formally Released (Day 138 Milestone)
 - **Final Release Report**: `docs/DEMO_FINAL_RELEASE_REPORT.md`
+
+### Security & Bug Bounty Program
+- **Status**: Active & HackerOne/Bugcrowd Aligned (Day 141 Milestone)
+- **Policy & Guidelines**: `SECURITY.md`
+- **Hall of Fame**: `docs/HALL_OF_FAME.md`
+- **Final Report**: `docs/BUG_BOUNTY_FINAL_REPORT.md`
