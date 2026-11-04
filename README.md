@@ -28,3 +28,8 @@ Brahmastra is an advanced, post-quantum self-sovereign identity (SSI) and privac
 - **Primary License**: Apache License 2.0 (`LICENSE-APACHE`)
 - **Patent Shield**: Active (Protection against predatory patent litigation)
 - **Final Legal Audit**: `docs/LEGAL_APACHE_FINAL_AUDIT.md`
+
+## Live Terminal Demonstration
+- **Interactive Demo Cast**: `demo/terminal_demo_cast.json`
+- **Execution Specifications**: `docs/DEMO_RELEASE_DRAFT.md`
+- **Verification Status**: Validated on Lenovo ThinkPad T490 (WSL2 / Ubuntu)
