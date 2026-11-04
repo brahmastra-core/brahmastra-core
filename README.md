@@ -43,3 +43,8 @@ Brahmastra is an advanced, post-quantum self-sovereign identity (SSI) and privac
 - **Policy & Guidelines**: `SECURITY.md`
 - **Hall of Fame**: `docs/HALL_OF_FAME.md`
 - **Final Report**: `docs/BUG_BOUNTY_FINAL_REPORT.md`
+
+### Global Security Audit Status
+- **Status**: Completed & Inviolable (Day 144 Milestone)
+- **Audit Execution Ledger**: `docs/SECURITY_AUDIT_EXECUTION_LEDGER.md`
+- **Final Security Audit Report**: `docs/SECURITY_AUDIT_FINAL_REPORT.md`
