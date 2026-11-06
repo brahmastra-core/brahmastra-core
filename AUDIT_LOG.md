@@ -81,3 +81,12 @@
   - Designated State Bank of India (SBI) New Delhi Main Branch routing mapped to zero-fee charitable deployment.
   - Statutory 20% operational ceiling and 80% non-profit humanitarian mandates ratified.
 - Status: FCRA Statutory Milestone Fully Closed.
+
+## [MILESTONE: SWISS PRIVATE BANKING TREASURY & ARCHITECTURAL INTEGRATION]
+- Date: November 6, 2026
+- Scope: Swiss Private Banking (UBS / Julius Bär) Treasury Review & Cross-Border Architecture Integration
+- Key Accomplishments:
+  - Swiss institutional banking resolution, onboarding dossier, and routing structures finalized.
+  - Statutory alignment with Swiss Banking Act, AMLA compliance, and ESA oversight established.
+  - Cross-border remittance integration between Swiss treasury conduits and SBI FCRA accounts completed.
+- Status: Swiss Private Banking Treasury Milestone Fully Closed.
