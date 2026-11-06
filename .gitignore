@@ -3,3 +3,9 @@ brahmastra_core_engine/target/
 __pycache__/
 .coverage
 *.pyc
+OFFICIAL_DISCLOSURE_LETTER.txt
+brahmastra_legal_archive.tar.gz
+FOUNDATION_FILING_MEMO.txt
+SUCCESS_ACTION_PLAN.txt
+ARCHIVE_CHECKSUM.txt
+ESA_FILING_DOSSIER.txt
