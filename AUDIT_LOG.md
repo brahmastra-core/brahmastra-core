@@ -99,3 +99,12 @@
   - Statutory alignment with Swiss DLT Act and decentralized custody standards established.
   - System architecture mapped connecting on-chain micro-fee settlements with Swiss institutional banking conduits.
 - Status: Multi-Signature Cold Treasury Milestone Fully Closed.
+
+## [MILESTONE: US TREASURY BILLS (T-BILLS) LIQUIDITY PIPELINE & ARCHITECTURAL INTEGRATION]
+- Date: November 6, 2026
+- Scope: US T-Bills Liquidity Allocation, Reinvestment Mandate & Cross-Border Architecture Integration
+- Key Accomplishments:
+  - 40%-50% laddered US Treasury Bills liquidity policy and institutional custody parameters finalized.
+  - Automated maturity rollover routines and capital preservation constraints established.
+  - Cross-border remittance integration between realized US T-Bills yields and Indian SBI FCRA welfare conduits completed.
+- Status: US T-Bills Liquidity Pipeline Milestone Fully Closed.
