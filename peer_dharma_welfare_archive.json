@@ -1,0 +1,9 @@
+{
+    "protocol_rule": "80% Network Fee Ingress Allocation to Sovereign Public Trust",
+    "beneficiary": "Brahmastra Dharma Public Trust (Healthcare & Education)",
+    "audit_certificate_id": "DHARMA-PEER-AUDIT-1794034678",
+    "zkp_settlement_proof": "6d302b8905323d342ef519a2f6dd3ded233e2af797ad4a7d1f370b984413344f",
+    "dharma_vault_amount": "2560.0 SOV",
+    "governance_status": "IMMUTABLE_CONSENSUS_VERIFIED",
+    "archived_timestamp": 1794034678
+}

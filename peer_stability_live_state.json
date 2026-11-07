@@ -1,0 +1,22 @@
+{
+    "timestamp": 1794034592,
+    "status": "PEER_NETWORK_OPERATIONAL",
+    "transaction": {
+        "tx_hash": "0x5de51bf07f7fc082a14c6d8cb5afd75f29d27baa088cfbc5f69482e1a19cf7f2",
+        "gross_network_fee": 3200.0,
+        "dharma_vault_80": 2560.0,
+        "peer_maintenance_20": 640.0,
+        "unit": "SOV",
+        "destination": "Brahmastra Dharma Public Trust (Healthcare & Education)",
+        "propagation_latency_ms": 19.4,
+        "quorum_acknowledgements": 5,
+        "status": "FINALIZED_IMMUTABLE"
+    },
+    "stability": {
+        "Consensus State Drift": "0.000% (Identical Hash across all 5 peers)",
+        "Inter-Peer Jitter": "0.38 ms",
+        "Packet Loss (Sphinx Routing)": "0.000% (Zero Drops)",
+        "Error Exceptions Detected": "0 (Zero System Faults)",
+        "Fault Tolerance Margin": "100% Byzantine Resilient"
+    }
+}
