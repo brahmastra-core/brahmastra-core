@@ -1,0 +1,13 @@
+{
+    "genesis_hash": "d3ffedc4e9d8dc1aa931b151830cc7e2831b19340e1b87256cc9174c1bca92bc",
+    "transaction": {
+        "tx_hash": "0x94d907821c1e8cc7894e86bdc52da132daf4c5c887a18b4e2cce53bfc015fa00",
+        "network_fee_gross": 1000.0,
+        "dharma_welfare_split_80": 800.0,
+        "validator_reserve_split_20": 200.0,
+        "currency": "SOV",
+        "settlement_state": "FINALIZED_ON_BLOCK_0"
+    },
+    "status": "MAINNET_OPERATIONAL",
+    "timestamp": 1794032533
+}
