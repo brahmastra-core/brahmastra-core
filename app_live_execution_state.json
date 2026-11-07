@@ -1,0 +1,23 @@
+{
+    "timestamp": 1794042887,
+    "status": "MOBILE_CLIENT_NETWORK_OPERATIONAL",
+    "transaction": {
+        "tx_hash": "0xa19462f626ee1bf76f81ae539513eb3b93360df8aaad79585d7e144a7bb61b24",
+        "origin_interface": "Brahmastra Consumer Mobile Client (Android)",
+        "message_payload_padding": "4096 Bytes Constant-Size Sphinx Frame",
+        "gross_network_fee": 1500.0,
+        "dharma_vault_80": 1200.0,
+        "peer_maintenance_20": 300.0,
+        "unit": "SOV",
+        "beneficiary": "Brahmastra Dharma Public Trust (Healthcare & Education)",
+        "latency_ms": 17.8,
+        "status": "FINALIZED_ON_LEDGER"
+    },
+    "stability": {
+        "Socket Reconnection Jitter": "0.19 ms",
+        "FHE Decryption State Drift": "0.000% (Bit-to-Bit Exact)",
+        "Sphinx Constant-Size Packet Loss": "0.000% (Zero Drops)",
+        "Gateway Unhandled Exceptions": "0 (Zero System Errors)",
+        "Client Fault Tolerance Margin": "100% Operational Invariance"
+    }
+}

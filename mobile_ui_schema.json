@@ -1,0 +1,26 @@
+{
+    "module_chat": {
+        "title": "Sovereign Chat",
+        "features": [
+            "1-Tap Instant Message",
+            "Microphone Voice Note",
+            "Encrypted Media"
+        ],
+        "security_badge": "Lattice FHE Protected (Post-Quantum Safe)",
+        "traffic_masking": "Sphinx Constant-Size Padding (4096 bytes)"
+    },
+    "module_wallet": {
+        "title": "Sovereign Document Vault",
+        "supported_records": [
+            "Pattadar Passbook / 1B Adangal",
+            "Identity Proof",
+            "Land Titling Records"
+        ],
+        "encryption": "Local Client-Side Multi-Party FHE Seal",
+        "cloud_bypass": "Zero Centralized Database Dependency"
+    },
+    "module_dharma": {
+        "title": "Dharma Impact Dashboard",
+        "telemetry": "Real-time 80% Network Fee Routing to Healthcare/Education Trust"
+    }
+}

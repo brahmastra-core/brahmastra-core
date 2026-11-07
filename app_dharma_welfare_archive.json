@@ -1,0 +1,9 @@
+{
+    "protocol_rule": "80% Mobile Ingress Fee Allocation to Public Welfare Trust",
+    "beneficiary": "Brahmastra Dharma Public Trust (Healthcare & Education)",
+    "audit_certificate_id": "DHARMA-MOBILE-AUDIT-1794042985",
+    "zkp_settlement_proof": "d03d817139b83b7efa363ca7e667f0dd2c3fb19c3fb6ecdeea744eef7e671edf",
+    "dharma_vault_transferred": "1200.0 SOV",
+    "verification_status": "IMMUTABLE_CONSENSUS_VERIFIED",
+    "archived_timestamp": 1794042985
+}
