@@ -1,0 +1,10 @@
+{
+    "chain_id": "brahmastra-mainnet-1",
+    "height": 0,
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "message": "A digital shield dedicated to defending personal liberty and ending hunger \u2014 The Dawn of Brahmastra.",
+    "author": "Naresh (Architect)",
+    "protocol": "CloakCompute-ZeroTrust",
+    "timestamp": 1794031683,
+    "genesis_hash": "d3ffedc4e9d8dc1aa931b151830cc7e2831b19340e1b87256cc9174c1bca92bc"
+}

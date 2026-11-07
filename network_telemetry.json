@@ -1,0 +1,9 @@
+{
+    "timestamp": 1794031986,
+    "chain_status": "STABLE",
+    "active_peers": 5,
+    "block_height": 0,
+    "packet_loss_rate": "0.000%",
+    "zero_knowledge_proof_status": "VERIFIED_VALID",
+    "memory_pressure_rss_mb": 62.4
+}
