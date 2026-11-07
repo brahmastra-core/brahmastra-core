@@ -1,0 +1,21 @@
+{
+    "timestamp": 1794033680,
+    "status": "GLOBAL_MESH_ONLINE",
+    "settlement": {
+        "tx_hash": "0x646c815dcfaa759c04114cdade5e951d68742940efe8a343fa3c1d5c40c93398",
+        "gross_ingress_fee": 2500.0,
+        "dharma_vault_allocation_80": 2000.0,
+        "cluster_infrastructure_20": 500.0,
+        "currency": "SOV",
+        "beneficiary_vault": "Brahmastra Dharma Public Trust (Healthcare & Education)",
+        "confirmation_nodes": 4,
+        "state": "CONFIRMED_FINAL"
+    },
+    "metrics": {
+        "Consensus State Drift": "0.000% (Bit-Exact Alignment)",
+        "Inter-Cluster Latency Avg": "40.85 ms (Within SLA)",
+        "Memory Footprint (All Nodes)": "CLEAN (< 68 MB RSS per node)",
+        "Packet Loss (Sphinx Mixnet)": "0.000% (Zero Drops)",
+        "Byzantine Fault Tolerance": "ACTIVE (Quorum: 4/4 Verified)"
+    }
+}

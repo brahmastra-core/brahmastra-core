@@ -1,0 +1,9 @@
+{
+    "governance_rule": "80% Global Ingress Fee Allocation to Dharma Reserve Pool",
+    "beneficiary_foundation": "Brahmastra Dharma Public Trust (Healthcare & Education)",
+    "cross_border_settlement_id": "DHARMA-MESH-1794033988",
+    "zero_knowledge_audit_proof": "7ba112444fbbb9e86f0a8308500883445d5a1adbc49f46a23fbb1fb53d4d85a7",
+    "routing_topology": "Switzerland -> Germany -> USA -> India",
+    "compliance_audit": "IMMUTABLE_GLOBAL_LEDGER_ENFORCED",
+    "archived_timestamp": 1794033988
+}
