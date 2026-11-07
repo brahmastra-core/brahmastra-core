@@ -1,3 +1,9 @@
+# BRAHMASTRA CORE SOVEREIGN ECOSYSTEM
+
+**Mainnet Core: v0.5.0 Active** | **Pediatric  Public Mesh Escrow Conduit: Enforced**
+
+---
+
 # Brahmastra: Post-Quantum Sovereign Identity Architecture
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
