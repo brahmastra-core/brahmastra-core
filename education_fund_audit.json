@@ -1,0 +1,62 @@
+{
+  "component": "Underprivileged Students Education Fund Engine",
+  "timestamp": 1794377061.0501254,
+  "channel_id": "0x83a597c7186cfa4a",
+  "task_1_tuition_clearance": [
+    {
+      "inst_type": "Government Degree College - Fee Wing",
+      "beneficiaries": 450,
+      "tuition_grant": 4500.0,
+      "status": "TUITION_ALLOCATED"
+    },
+    {
+      "inst_type": "Vocational & Polytechnic Institute",
+      "beneficiaries": 320,
+      "tuition_grant": 3800.0,
+      "status": "TUITION_ALLOCATED"
+    },
+    {
+      "inst_type": "Rural High School Educational Board",
+      "beneficiaries": 680,
+      "tuition_grant": 2700.0,
+      "status": "TUITION_ALLOCATED"
+    }
+  ],
+  "task_2_supplies_transfer": [
+    {
+      "category": "Academic Textbooks & Notebooks",
+      "budget_units": 1500.0,
+      "distribution": "DIRECT_TO_INSTITUTION"
+    },
+    {
+      "category": "School Uniforms & Safety Footwear",
+      "budget_units": 1200.0,
+      "distribution": "DIRECT_TO_INSTITUTION"
+    }
+  ],
+  "total_committed_units": 13700.0,
+  "task_3_parameters": {
+    "grant_category": "UNDERPRIVILEGED_EDUCATION_SUPPORT",
+    "tuition_coverage_ratio": "100% COMPLETE_FEES_PAID",
+    "books_and_uniforms_support": "INTEGRATED_INSTITUTIONAL_SUPPLIES",
+    "middleman_risk": "ZERO_INTERMEDIARY",
+    "verification_mechanism": "INSTITUTIONAL_ENROLLMENT_ZK_PROOF"
+  },
+  "task_4_nodes": [
+    {
+      "node": "Education-Oracle-Primary",
+      "status": "ONLINE",
+      "ledger_sync": "SYNCHRONIZED"
+    },
+    {
+      "node": "Education-Oracle-Backup",
+      "status": "ONLINE",
+      "ledger_sync": "SYNCHRONIZED"
+    },
+    {
+      "node": "Dharma-Education-Disbursement",
+      "status": "READY",
+      "ledger_sync": "SYNCHRONIZED"
+    }
+  ]
+}
