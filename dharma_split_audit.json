@@ -1,0 +1,35 @@
+{
+  "component": "Dharma Autonomous Split Engine",
+  "timestamp": 1794375788.0539336,
+  "task_1_and_2_settlement": {
+    "initial_pool": 10000.0,
+    "welfare_routed_80": 8000.0,
+    "infrastructure_retained_20": 2000.0,
+    "proof_hash": "0x739691b0ce611ff417fdfaf9cb6d5c5768d04f32f22b9f776112f38f9a6ff13e",
+    "execution_mode": "AUTONOMOUS_NO_ADMIN"
+  },
+  "task_3_parameters": {
+    "contract_standard": "DharmaAutonomousV1",
+    "welfare_allocation_percent": 80,
+    "infrastructure_percent": 20,
+    "execution_cadence": "DAILY_MIDNIGHT_EPOCH",
+    "immutability_flag": "PERMANENT_HARDCODED"
+  },
+  "task_4_validators": [
+    {
+      "node": "Dharma-Settlement-Primary",
+      "status": "ONLINE",
+      "cron_hook": "SYNCHRONIZED"
+    },
+    {
+      "node": "Dharma-Settlement-Backup",
+      "status": "ONLINE",
+      "cron_hook": "SYNCHRONIZED"
+    },
+    {
+      "node": "Welfare-Vault-Ingress",
+      "status": "READY",
+      "reception_state": "ACTIVE"
+    }
+  ]
+}
