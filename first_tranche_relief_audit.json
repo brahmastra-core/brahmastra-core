@@ -1,0 +1,52 @@
+{
+  "component": "First Tranche Medical Relief Engine",
+  "timestamp": 1794376730.2123275,
+  "release_gateway_id": "0xa4cb7c14d5bcfd1f",
+  "task_1_intermediary_state": "ZERO_INTERMEDIARY_VERIFIED",
+  "task_2_oncology_grants": {
+    "total_released_units": 10000.0,
+    "cases": [
+      {
+        "patient_ref": "PT-ONC-01",
+        "stage": "Stage II Pediatric Leukemia",
+        "grant": 3000.0,
+        "status": "TREATMENT_STARTED"
+      },
+      {
+        "patient_ref": "PT-ONC-02",
+        "stage": "Advanced Chemotherapy Protocol",
+        "grant": 4200.0,
+        "status": "TREATMENT_STARTED"
+      },
+      {
+        "patient_ref": "PT-SURG-01",
+        "stage": "Emergency Neuro-Trauma Surgery",
+        "grant": 2800.0,
+        "status": "TREATMENT_STARTED"
+      }
+    ]
+  },
+  "task_3_parameters": {
+    "tranche_phase": "TRANCHE_1_FIRST_WAVE",
+    "maximum_disbursement_cap": "UNLOCKED_UP_TO_DHARMA_BALANCE",
+    "beneficiary_selection_rule": "ECONOMIC_VULNERABILITY_INDEX_AND_MEDICAL_URGENCY",
+    "settlement_audit_proof": "MULTI_ORACLE_CONSENSUS"
+  },
+  "task_4_nodes": [
+    {
+      "node": "Tranche-Disbursement-Node-1",
+      "status": "ONLINE",
+      "ledger_sync": "SYNCHRONIZED"
+    },
+    {
+      "node": "Tranche-Disbursement-Node-2",
+      "status": "ONLINE",
+      "ledger_sync": "SYNCHRONIZED"
+    },
+    {
+      "node": "Hospital-Liquidity-Bridge",
+      "status": "READY",
+      "ledger_sync": "SYNCHRONIZED"
+    }
+  ]
+}
