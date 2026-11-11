@@ -1,0 +1,11 @@
+{
+    "timestamp": 1794066887,
+    "component": "brahmastra_production_apk",
+    "file_name": "brahmastra-release.apk",
+    "file_path": "brahmastra_mobile/build/outputs/apk/release/brahmastra-release.apk",
+    "size_bytes": 312309,
+    "sha256_checksum": "818d4ca26faf4b2ec6a0f0701ccd842c9181b1167576b7f6b58d5fc75046852a",
+    "target_arch": "arm64-v8a",
+    "signing_status": "PRODUCTION_SEALED",
+    "status": "VERIFIED_OPERATIONAL"
+}

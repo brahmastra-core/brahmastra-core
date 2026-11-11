@@ -1,0 +1,22 @@
+[package]
+name = "brahmastra_core_crypto"
+version = "1.0.0"
+edition = "2021"
+authors = ["Brahmastra Architecture Team <core@brahmastra.internal>"]
+description = "Sovereign FHE, Sphinx 4096-Byte Padding and Memory Zeroize Engine"
+
+[lib]
+name = "brahmastra_core"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+zeroize = { version = "1.7", features = ["zeroize_derive"] }
+subtle = "2.5"
+libc = "0.2"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

@@ -1,0 +1,6 @@
+{
+    "component": "brahmastra_mobile_scaffold",
+    "permissions": ["Mesh_Bluetooth", "WiFi_Direct", "Storage_Sandboxed"],
+    "native_libs": ["arm64-v8a", "x86_64"],
+    "status": "VERIFIED_OPERATIONAL"
+}
